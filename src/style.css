@@ -1,0 +1,44 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  color: var(--cream);
+}
+:root {
+  --green: #014921;
+  --yellow: #f48722;
+  --pink: #fdbba6;
+  --orange: #fc5501;
+  --cream: #feead9;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../images/sunset_group_jumping.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--cream);
+  padding: 150px 100px 50px 100px;
+  text-align: center;
+}
+header h1 {
+  font-size: 100px;
+}
+header h2 {
+  margin-top: 50px;
+}
+.tribePink {
+  color: var(--yellow);
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  opacity: 0.3;
+  text-align: center;
+}
