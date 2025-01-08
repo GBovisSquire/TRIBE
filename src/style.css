@@ -1,14 +1,17 @@
+body {
+  background-color: var(--cream);
+}
 .container {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
-  color: var(--cream);
 }
 :root {
   --green: #014921;
   --yellow: #f48722;
-  --pink: #fdbba6;
-  --orange: #fc5501;
+  --pink: #ef9476;
+  --orange: #fc4401;
   --cream: #feead9;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
@@ -20,20 +23,23 @@ header {
   text-align: center;
 }
 header h1 {
-  font-size: 100px;
+  font-size: 120px;
 }
 header h2 {
+  font-size: 40px;
   margin-top: 50px;
 }
 .tribePink {
-  color: var(--yellow);
+  color: var(--pink);
 }
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 50px;
+  background-color: var(--pink);
 }
 h3 {
+  color: var(--cream);
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
@@ -41,4 +47,24 @@ h3 {
   margin: 0;
   opacity: 0.3;
   text-align: center;
+}
+.home_page_button {
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.5;
+  border-radius: 6px;
+  padding: 40px 25px;
+  margin: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--green);
+  box-shadow: var(--box-shadow);
+  color: var(--pink);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
