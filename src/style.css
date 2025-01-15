@@ -6,24 +6,27 @@ body {
   margin: 0 auto;
 }
 :root {
-  --green: #014921;
+  --lightgreen: #aab99a;
+  --greeen: #638c6d;
   --yellow: #f48722;
   --pink: #ef9476;
   --orange: #fc4401;
   --cream: #feead9;
+  --black: #303030;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
-    url("../images/sunset_group_jumping.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/women_hiking.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--cream);
-  padding: 150px 100px 50px 100px;
+  padding: 200px 100px 150px 100px;
   text-align: center;
 }
 header h1 {
   font-size: 120px;
+  margin-bottom: 80px;
 }
 header h2 {
   font-size: 40px;
@@ -32,11 +35,30 @@ header h2 {
 .tribePink {
   color: var(--pink);
 }
+header h2 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--cream);
+  border-radius: 6px;
+  outline-style: solid;
+  outline-color: var(--lightgreen);
+  margin: 30px;
+  padding: 5px 20px 5px 20px;
+}
+.header_button:hover {
+  background-color: var(--pink);
+}
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 50px;
+}
+.find_out_more_section {
   background-color: var(--pink);
+  padding-bottom: 100px;
+}
+.need_some_inspo_section {
+  background-color: var(--lightgreen);
 }
 h3 {
   color: var(--cream);
@@ -45,26 +67,45 @@ h3 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
-  opacity: 0.3;
+  padding: 20px;
+  opacity: 0.6;
   text-align: center;
 }
-.home_page_button {
+p {
   text-align: center;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 1.5;
-  border-radius: 6px;
-  padding: 40px 25px;
-  margin: 50px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--green);
-  box-shadow: var(--box-shadow);
-  color: var(--pink);
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }
 .button {
   display: flex;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.card {
+  justify-self: center;
+}
+.card-button {
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--black);
+  box-shadow: var(--box-shadow);
+  color: var(--cream);
+}
+footer p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+svg {
+  margin: 5px;
+}
+.mediaApps {
+  text-align: center;
+  margin-bottom: 20px;
 }
