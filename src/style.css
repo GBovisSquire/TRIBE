@@ -41,7 +41,7 @@ header h2 a {
   color: var(--cream);
   border-radius: 6px;
   outline-style: solid;
-  outline-color: var(--lightgreen);
+  outline-color: var(--pink);
   margin: 30px;
   padding: 5px 20px 5px 20px;
 }
@@ -101,6 +101,9 @@ footer p {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 18px;
+}
+footer a {
+  color: var(--pink);
 }
 svg {
   margin: 5px;
