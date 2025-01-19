@@ -7,7 +7,7 @@ body {
 }
 :root {
   --lightgreen: #aab99a;
-  --greeen: #638c6d;
+  --green: #3e6848;
   --yellow: #f48722;
   --pink: #ef9476;
   --orange: #fc4401;
@@ -97,6 +97,27 @@ img {
   box-shadow: var(--box-shadow);
   color: var(--cream);
 }
+.join_header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/contorlines.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.typewriter {
+  font-size: 140px;
+  font-family: "Caveat", serif;
+  font-weight: 700;
+  text-align: center;
+  color: var(--cream);
+  margin-bottom: 40px;
+}
+.join_header h1 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--cream);
+}
+
 footer p {
   margin-top: 20px;
   margin-bottom: 20px;
