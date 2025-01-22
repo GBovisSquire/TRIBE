@@ -184,23 +184,45 @@ img {
   margin: 0 auto;
 }
 .help_text {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 40px;
   text-align: center;
 }
-footer p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+footer {
+  background-color: var(--green);
+  color: var(--cream);
+  text-align: center;
+}
+.newsletter-sign-up-submission {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: var(--orange);
+  color: var(--cream);
   font-size: 18px;
   text-align: center;
 }
-footer a {
-  color: var(--pink);
+footer {
+  font-size: 18px;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
 }
 svg {
   margin: 5px;
 }
 .mediaApps {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 45px;
+}
+.buy-us-coffee {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
+}
+.navigation-links {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
 }
