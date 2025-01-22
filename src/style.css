@@ -1,9 +1,15 @@
 body {
   background-color: var(--cream);
 }
+.join_body {
+  background-color: var(--cream);
+}
 .container {
   max-width: 1800px;
   margin: 0 auto;
+}
+.join_container {
+  max-width: 100%;
 }
 :root {
   --lightgreen: #aab99a;
@@ -14,6 +20,9 @@ body {
   --cream: #feead9;
   --black: #303030;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+a {
+  text-decoration: none;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -36,7 +45,6 @@ header h2 {
   color: var(--pink);
 }
 header h2 a {
-  text-decoration: none;
   text-transform: capitalize;
   color: var(--cream);
   border-radius: 6px;
@@ -60,6 +68,7 @@ section {
 .need_some_inspo_section {
   background-color: var(--lightgreen);
 }
+
 h3 {
   color: var(--cream);
   font-weight: 900;
@@ -71,7 +80,16 @@ h3 {
   opacity: 0.6;
   text-align: center;
 }
-p {
+h4 {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  opacity: 0.6;
+}
+.find_out_more_section p {
   text-align: center;
   font-size: 20px;
   margin-bottom: 60px;
@@ -91,7 +109,7 @@ img {
 }
 .card-button {
   border-radius: 6px;
-  text-decoration: none;
+
   text-transform: capitalize;
   background: var(--black);
   box-shadow: var(--box-shadow);
@@ -117,11 +135,50 @@ img {
   font-size: 30px;
   color: var(--cream);
 }
+.available_trips_section {
+  max-width: 80%;
+}
+.available_trips_bikepacking_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/woman_bikepacking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px;
+  color: var(--pink);
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
 
+.available_trips_hover :hover {
+  background-image: url("../images/woman_bikepacking.jpg");
+}
+.available_trips_section p {
+  line-height: 1.5;
+}
+.create_your_own_trip_button {
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+  background: var(--green);
+  border: none;
+  color: var(--cream);
+  box-shadow: var(--box-shadow);
+  padding: 10px 15px 10px 15px;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.help_text {
+  font-size: 14px;
+  margin-top: 40px;
+  text-align: center;
+}
 footer p {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 18px;
+  text-align: center;
 }
 footer a {
   color: var(--pink);
