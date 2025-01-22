@@ -52,7 +52,8 @@ header h1 {
   margin-bottom: 80px;
 }
 header h2 {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 300;
   margin-top: 50px;
 }
 .tribePink {
@@ -63,7 +64,7 @@ header h2 a {
   color: var(--cream);
   border-radius: 6px;
   outline-style: solid;
-  outline-color: var(--pink);
+  outline-color: var(--cream);
   margin: 30px;
   padding: 5px 20px 5px 20px;
 }
@@ -112,12 +113,7 @@ img {
   display: block;
   margin: 0 auto;
 }
-.button {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 .card {
   justify-self: center;
 }
@@ -201,6 +197,16 @@ footer {
   color: var(--cream);
   font-size: 18px;
   text-align: center;
+}
+.sign-up-button {
+  border-radius: 6px;
+  font-size: 18px;
+
+  background: var(--cream);
+  border: none;
+  color: var(--green);
+
+  padding: 4px 15px 4px 15px;
 }
 footer {
   font-size: 18px;

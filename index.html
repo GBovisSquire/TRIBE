@@ -173,13 +173,33 @@
           </div>
         </section>
       </main>
-      <footer>
-        <p>
-          TRIBE is dedicated to help people find adventure, to help us keep it
-          up please consider
-          <a href="https://buymeacoffee.com/gracesquire">buying us a coffee</a>
-        </p>
-        <div class="mediaApps">
+    </div>
+    <div class="newsletter-sign-up-submission">
+      <form action="/submit">
+        <label for="email"
+          >Join our newsletter to keep up with new trips
+        </label>
+        <input
+          class="sign-up-button"
+          type="email"
+          name="email"
+          placeholder=""
+        />
+        <input class="sign-up-button" type="submit" value="Sign Up" />
+      </form>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-4 buy-us-coffee">
+          <p>
+            TRIBE is dedicated to help people find adventure, to help us keep it
+            up please consider
+            <a href="https://buymeacoffee.com/gracesquire"
+              >buying us a coffee</a
+            >
+          </p>
+        </div>
+        <div class="col-4 mediaApps">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -210,14 +230,28 @@
               d="M28.783,10.412c-.005-3.575-2.789-6.505-6.056-7.563-4.057-1.313-9.407-1.123-13.281,.705C4.75,5.77,3.275,10.623,3.22,15.464c-.045,3.98,.352,14.461,6.264,14.536,4.393,.056,5.047-5.605,7.08-8.331,1.446-1.94,3.308-2.487,5.6-3.055,3.939-.975,6.624-4.084,6.619-8.203Z"
             ></path>
           </svg>
+          <p class="pt-4 pb-2 coded-by">
+            Coded by
+            <a href="https://github.com/GBovisSquire" target="_blank"
+              >Grace Squire</a
+            >
+          </p>
         </div>
-        <p>
-          Coded by
-          <a href="https://github.com/GBovisSquire" target="_blank"
-            >Grace Squire</a
-          >
-        </p>
-      </footer>
-    </div>
+
+        <div class="col-4 navigation-links">
+          <ul>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">T&C's</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
