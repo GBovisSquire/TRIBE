@@ -1,3 +1,14 @@
+:root {
+  --lightgreen: #aab99a;
+  --green: #3e6848;
+  --yellow: #f48722;
+  --pink: #ef9476;
+  --orange: #fc4401;
+  --cream: #feead9;
+  --black: #303030;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f7f6;
@@ -17,7 +28,7 @@ h1 {
 }
 
 form {
-  background-color: #fff;
+  background-color: var(--black);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -29,7 +40,7 @@ label {
   font-weight: bold;
   display: block;
   margin-bottom: 8px;
-  color: #555;
+  color: var(--pink);
 }
 
 input[type="text"],
@@ -40,10 +51,10 @@ select {
   width: 100%;
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--cream);
   border-radius: 4px;
   font-size: 1em;
-  background-color: #f9f9f9;
+  background-color: var(--cream);
 }
 
 input[type="radio"] {
@@ -52,8 +63,8 @@ input[type="radio"] {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
+  background-color: var(--green);
+  color: var(--pink);
   padding: 14px 20px;
   border: none;
   border-radius: 4px;

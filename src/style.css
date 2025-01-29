@@ -4,6 +4,9 @@ body {
 .join_body {
   background-color: var(--cream);
 }
+.create_body {
+  background-color: var(--lightgreen);
+}
 .container {
   max-width: 1800px;
   margin: 0 auto;
@@ -44,7 +47,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--cream);
-  padding: 200px 100px 150px 100px;
+  padding: 100px 50px 100px 50px;
   text-align: center;
 }
 header h1 {
@@ -84,7 +87,7 @@ section {
   background-color: var(--lightgreen);
 }
 
-h3 {
+header h3 {
   color: var(--pink);
   font-weight: 900;
   font-size: 24px;
@@ -92,7 +95,16 @@ h3 {
   letter-spacing: 5px;
   margin: 0;
   padding: 20px;
-  opacity: 0.6;
+  text-align: center;
+}
+.find_out_more_section h3 {
+  color: var(--pink);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 20px;
   text-align: center;
 }
 h4 {
@@ -119,7 +131,6 @@ img {
 }
 .card-button {
   border-radius: 6px;
-
   text-transform: capitalize;
   background: var(--black);
   box-shadow: var(--box-shadow);
@@ -140,7 +151,13 @@ img {
   color: var(--lightgreen);
   margin-bottom: 40px;
 }
+
 .join_header h1 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--cream);
+}
+.join_header h2 {
   text-align: center;
   font-size: 30px;
   color: var(--cream);
@@ -184,6 +201,42 @@ img {
   margin-top: 40px;
   text-align: center;
 }
+.create_header {
+  background-color: var(--black);
+  padding: 60px;
+}
+.create_header h1 {
+  text-align: center;
+  font-size: 80px;
+  color: var(--pink);
+}
+.create_header h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 20px;
+  color: var(--cream);
+}
+.trip-submission-form-section {
+  background-color: var(--cream);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+.form-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 5px;
+  border: 1px solid var(--cream);
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: white;
+}
+
 footer {
   background-color: var(--green);
   color: var(--cream);
@@ -201,11 +254,9 @@ footer {
 .sign-up-button {
   border-radius: 6px;
   font-size: 18px;
-
   background: var(--cream);
   border: none;
   color: var(--green);
-
   padding: 4px 15px 4px 15px;
 }
 footer {
@@ -223,8 +274,8 @@ svg {
   margin-top: 45px;
 }
 .buy-us-coffee {
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 120px;
+  padding-right: 120px;
   padding-top: 50px;
 }
 .navigation-links {
