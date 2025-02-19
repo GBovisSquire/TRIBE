@@ -237,11 +237,20 @@ img {
   font-size: 1em;
   background-color: white;
 }
-.about-section {
-  background-color: var(--black);
-  color: var(--pink);
+.about-header h1 {
+  font-size: 50px;
+  color: var(--cream);
+  margin-left: 30px;
+  margin-right: 50px;
+  font-weight: 150;
 }
-
+.large-text {
+  font-size: 90px;
+  font-weight: 250;
+}
+.about-header {
+  background-color: var(--black);
+}
 .newsletter-sign-up-submission {
   padding-top: 10px;
   padding-bottom: 10px;
