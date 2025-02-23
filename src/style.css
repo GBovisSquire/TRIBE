@@ -83,6 +83,8 @@ section {
 .find_out_more_section {
   background-color: var(--cream);
   padding-bottom: 100px;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 .need_some_inspo_section {
   background-color: var(--lightgreen);
@@ -237,19 +239,13 @@ img {
   font-size: 1em;
   background-color: white;
 }
-.about-header h1 {
-  font-size: 50px;
-  color: var(--cream);
-  margin-left: 30px;
-  margin-right: 50px;
-  font-weight: 150;
-}
+
 .large-text {
   font-size: 90px;
   font-weight: 250;
 }
-.about-header {
-  background-color: var(--black);
+.about_container {
+  background-color: var(--lightgreen);
 }
 .newsletter-sign-up-submission {
   padding-top: 10px;
