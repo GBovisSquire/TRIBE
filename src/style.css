@@ -244,14 +244,22 @@ header h2 a {
 }
 /* About page styling */
 .about_header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/About_pg/Grace.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 40px;
+  color: var(--cream);
+  padding: 100px 50px 100px 50px;
+  text-align: center;
 }
-.about_container {
-  background-color: var(--lightgreen);
+.about_header h1 {
+  font-size: 120px;
+  margin-bottom: 80px;
+}
+.about_header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
 }
 .newsletter-sign-up-submission {
   padding-top: 10px;
