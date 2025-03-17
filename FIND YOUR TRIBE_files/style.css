@@ -1,0 +1,309 @@
+/* General Styling */
+:root {
+  --lightgreen: #aab99a;
+  --green: #3e6848;
+  --yellow: #f48722;
+  --pink: #ef9476;
+  --orange: #fc4401;
+  --cream: #feead9;
+  --black: #303030;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  background-color: var(--cream);
+}
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.navbar-color {
+  background-color: var(--cream) !important;
+}
+nav .nav-item {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.navbar-brand {
+  color: var(--pink);
+  font-size: 30px;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: var(--pink);
+}
+h4 {
+  color: var(--green);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  opacity: 0.6;
+}
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+.card {
+  justify-self: center;
+}
+.card-button {
+  border-radius: 6px;
+  text-transform: capitalize;
+  background: var(--black);
+  box-shadow: var(--box-shadow);
+  color: var(--cream);
+}
+/* Home page styling */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/women_hiking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--cream);
+  padding: 100px 50px 100px 50px;
+  text-align: center;
+}
+header h1 {
+  font-size: 120px;
+  margin-bottom: 80px;
+}
+header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.tribePink {
+  color: var(--pink);
+}
+header h3 {
+  color: var(--pink);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.find_out_more_section h3 {
+  color: var(--pink);
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.find_out_more_section {
+  background-color: var(--cream);
+  padding-bottom: 100px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.find_out_more_section p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+/* Join a trip page styling */
+.join_body {
+  background-color: var(--cream);
+}
+.join_container {
+  max-width: 100%;
+}
+
+header h2 a {
+  text-transform: capitalize;
+  color: var(--cream);
+  border-radius: 6px;
+  outline-style: solid;
+  outline-color: var(--cream);
+  margin: 30px;
+  padding: 5px 20px 5px 20px;
+}
+.header_button:hover {
+  background-color: var(--pink);
+}
+
+.join_header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/contorlines.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+.typewriter {
+  font-size: 140px;
+  font-family: "Caveat", serif;
+  font-weight: 400;
+  text-align: center;
+  color: var(--pink);
+  margin-bottom: 30px;
+}
+
+.join_header h1 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--cream);
+}
+.join_header h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--cream);
+}
+.available_trips_section {
+  max-width: 80%;
+}
+.available_trips_bikepacking_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/woman_bikepacking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px;
+  color: var(--pink);
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.available_trips_hover :hover {
+  background-image: url("../images/woman_bikepacking.jpg");
+}
+.available_trips_section p {
+  line-height: 1.5;
+}
+.create_your_own_trip_button {
+  border-radius: 6px;
+  font-size: 20px;
+  text-align: center;
+  background: var(--green);
+  border: none;
+  color: var(--cream);
+  box-shadow: var(--box-shadow);
+  padding: 10px 15px 10px 15px;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.help_text {
+  font-size: 16px;
+  margin-top: 40px;
+  text-align: center;
+}
+/* Create a trip page styling */
+.create_body {
+  background-color: var(--lightgreen);
+}
+.plain_black_header {
+  background-color: var(--black);
+  padding: 60px;
+}
+.plain_black_header h1 {
+  text-align: center;
+  font-size: 80px;
+  color: var(--pink);
+}
+.plain_black_header h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 20px;
+  color: var(--cream);
+}
+.trip-submission-form-section {
+  background-color: var(--cream);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+.form-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 5px;
+  border: 1px solid var(--cream);
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: white;
+}
+.large-text {
+  font-size: 90px;
+  font-weight: 250;
+}
+/* About page styling */
+.about_header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/About_pg/Grace.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--cream);
+  padding: 100px 50px 100px 50px;
+  text-align: center;
+}
+.about_header h1 {
+  font-size: 120px;
+  margin-bottom: 80px;
+}
+.about_header h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.newsletter-sign-up-submission {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: var(--orange);
+  color: var(--cream);
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Footer styling */
+.sign-up-button {
+  border-radius: 6px;
+  font-size: 18px;
+  background: var(--cream);
+  border: none;
+  color: var(--green);
+  padding: 4px 15px 4px 15px;
+}
+footer {
+  background-color: var(--green);
+  color: var(--cream);
+  text-align: center;
+  font-size: 18px;
+}
+
+footer ul {
+  list-style: none;
+}
+svg {
+  margin: 5px;
+}
+.mediaApps {
+  text-align: center;
+  margin-top: 45px;
+}
+.buy-us-coffee {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+}
+.navigation-links {
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 50px;
+}
