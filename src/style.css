@@ -270,7 +270,32 @@ header h2 a {
   font-size: 18px;
   text-align: center;
 }
-
+/* Log in page styling */
+.body_green {
+  background-color: var(--lightgreen);
+}
+.log-in_form h1 {
+  text-align: center;
+}
+.log-in_form {
+  background-color: var(--cream);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+.form-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 5px;
+  border: 1px solid var(--cream);
+  border-radius: 4px;
+  font-size: 1em;
+  background-color: white;
+}
 /* Footer styling */
 .sign-up-button {
   border-radius: 6px;
